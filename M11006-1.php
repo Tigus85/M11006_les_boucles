@@ -13,12 +13,16 @@
         <a href="/">Retour à l'index</a>
     </div>
     <div>
-        <p><?= 'Créer une boucle avec la méthode while, générant dans chaque affichage "Ceci est la lettre "suivi d\'un contenu dynamique allant de la lettre "a" à la lettre "g"'
+        <p>
+            <?php
+            $i = "a";
+            while($i <= "g"){
+                echo "Ceci est la lettre $i <br>";
+                $i++;
+            }
 
-            // VOS SCRIPTS CI-DESSOUS
-
-
-            ?></p>
+            ?>
+        </p>
     </div>
 </body>
 
